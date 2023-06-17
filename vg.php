@@ -34,25 +34,7 @@
 
      }*/
 
-
-switch ($page ) {
-	case 'home':
-		include "home.php";
-		break;
-	case 'service':
-		include "service.php";
-		break;
-	case 'about':
-		include "about.php";
-		break;
-	case 'contact':
-		include "contact.php";
-		break;
-	
-	default:
-		// code...
-		break;
-}
+include $page.'.php';
 
 	 ?>
 
